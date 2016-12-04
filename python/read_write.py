@@ -1,0 +1,10 @@
+fw = open("sample.txt", 'w')
+fw.write("Hello world, first try at rread and write")
+fw.write(" bbbbbbbbbbbbbbbbb\n")
+fw.write("end ned")
+fw.close()
+
+fw = open("sample.txt", "r")
+text = fw.read()
+print(text)
+fw.close()
